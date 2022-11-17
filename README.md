@@ -1,6 +1,6 @@
 # Final Project Proposal: TUI Drawing Program
 
-# The Problem
+## The Problem
 
 I would like to create a drawing program that works in the terminal. 
 
@@ -12,7 +12,7 @@ Users will be able to:
 - Make multiple drawings and open/edit old drawings.
 - Access the same drawings even after the program restarts.
 
-# The Implementation
+## The Implementation
 
 A **linked list** will act as the drawing itself (also the undo buffer). This linked list is implemented as a **stack** because users can only undo from, or add to, one end of the linked list. The linked list contains information about each shape in the drawing, in the order it was drawn. There will be a class for each type of shape (a.k.a. triangle, line, circle, etc) and its color and dimensions. Given one of these linked lists, the program should be able to recreate a drawing.
 
